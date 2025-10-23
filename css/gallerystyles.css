@@ -1,0 +1,138 @@
+/* 🔹 ซ่อน popup ตอนเริ่มต้น */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+/* 🔹 เมื่อ popup ถูกเปิด (ผ่าน JS) */
+.lightbox[aria-hidden="false"] {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* พื้นหลังดำโปร่ง */
+.lightbox .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* กล่องรูปภาพ */
+.lightbox-panel {
+  position: relative;
+  background: #fff;
+  border-radius: 12px;
+  width: min(1100px, 95%);
+  max-height: 90vh;
+  padding: 16px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ภาพหลัก */
+.lb-image-wrap {
+  position: relative;
+  /*width: clamp(320px, 70vw, 820px);*/
+  max-height: 60vh;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lb-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* ปุ่มนำทางซ้ายขวา */
+.lb-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+  z-index: 3;
+}
+.lb-nav:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+.lb-prev { left: 10px; }
+.lb-next { right: 10px; }
+
+/* ปุ่มปิด (X) */
+.lb-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 4;
+  transition: background 0.3s;
+}
+.lb-close:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* แคปชัน */
+.lb-caption {
+  text-align: center;
+  font-size: 14px;
+  color: #444;
+  margin-top: 6px;
+}
+
+/* thumbnails */
+.lb-thumbs {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-top: 8px;
+  border-top: 1px solid #eee;
+  justify-content: center;
+}
+
+.lb-thumbs img {
+  width: 90px;     /* ← ปรับขนาด thumbnail ได้ตรงนี้ */
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  transition: transform 0.2s, border-color 0.2s;
+  cursor: pointer;
+}
+
+.lb-thumbs img:hover {
+  transform: scale(1.05);
+}
+
+.lb-thumbs button.active img {
+  border-color: #2563eb; /* สีเส้นขอบของรูปที่กำลังดูอยู่ */
+}
