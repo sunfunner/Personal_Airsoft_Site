@@ -906,24 +906,48 @@ ul.dropdown-menu li {
   margin: 0 auto;
 }
 
+/* ✅ ปรับให้รองรับทั้งมือถือและเดสก์ท็อป */
 .tabs {
   display: flex;
-  overflow-x: auto;             /* ✅ ให้เลื่อนแนวนอนได้ */
-  white-space: nowrap;          /* ✅ ป้องกันแท็บตัดบรรทัด */
   list-style: none;
   margin: 0;
-  padding: 0 10px;              /* เพิ่ม padding ด้านข้างเล็กน้อย */
+  padding: 0 10px;
   gap: 1px;
-  scrollbar-width: none;        /* ✅ ซ่อน scrollbar (Firefox) */
-  -webkit-overflow-scrolling: touch; /* ✅ เพิ่มความลื่นเวลาเลื่อนบนมือถือ */
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
 }
 
 .tabs::-webkit-scrollbar {
-  display: none;                /* ✅ ซ่อน scrollbar (Chrome/Safari) */
+  display: none; /* ซ่อน scrollbar */
+}
+
+/* ✅ สำหรับมือถือ (เลื่อนได้) */
+@media (max-width: 768px) {
+  .tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+    justify-content: flex-start; /* ชิดซ้ายเพื่อให้เลื่อนได้ */
+  }
+
+  .tabs li {
+    flex: 0 0 auto; /* ป้องกันแท็บยืด */
+  }
+}
+
+/* ✅ สำหรับเดสก์ท็อป (จัดกลาง) */
+@media (min-width: 769px) {
+  .tabs {
+    justify-content: center; /* จัดกลาง */
+    overflow: visible;       /* ไม่ต้องเลื่อน */
+  }
+
+  .tabs li {
+    flex: initial;
+  }
 }
 
 .tabs li {
-  flex: 0 0 auto;               /* ✅ ป้องกันแท็บยืดเต็มแถว */
   display: inline-block;
   padding: 15px 25px;
   background: none;
@@ -932,7 +956,8 @@ ul.dropdown-menu li {
   transition: transform 0.1s ease, background 0.3s ease, box-shadow 0.3s ease;
   border-radius: 4px;
   font-weight: bold;
-  white-space: nowrap;          /* ✅ ให้ข้อความไม่ตัดบรรทัด */
+  white-space: nowrap;
+  scroll-snap-align: start; /* สำหรับ snap */
 }
 
 .tabs li:hover {
@@ -966,13 +991,3 @@ ul.dropdown-menu li {
 .tabs li:active {
   transform: translateY(2px);
 }
-
-/* 🎯 Optional: เพิ่ม scroll snap เพื่อเลื่อนแล้วหยุดตรงแท็บพอดี */
-.tabs {
-  scroll-snap-type: x mandatory;
-}
-
-.tabs li {
-  scroll-snap-align: start;
-}
-
