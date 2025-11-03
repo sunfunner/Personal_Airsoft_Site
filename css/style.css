@@ -991,3 +991,9 @@ ul.dropdown-menu li {
 .tabs li:active {
   transform: translateY(2px);
 }
+
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none;
+    }
+  }
