@@ -66,6 +66,12 @@ const gallerySCARL = [
   }
 ];
 
+const galleryM4LVOA = [
+  {
+    src: "images/weapon/full/m4lvoa-1.jpg",
+  }
+];
+
 
 const galleryMP9 = [
   {
@@ -91,6 +97,12 @@ const galleryMP9 = [
   },
   {
     src: "images/weapon/full/mp9-8.jpg",
+  }
+];
+
+const galleryP90 = [
+  {
+    src: "images/weapon/full/p90-1.jpg",
   }
 ];
 
@@ -181,6 +193,12 @@ const galleryM1911 = [
   },                         
   {                          
     src: "images/weapon/full/m1911-9.jpg",
+  }
+];
+
+const galleryG17 = [
+  {
+    src: "images/weapon/full/g17-1.jpg",
   }
 ];
 
@@ -280,17 +298,26 @@ const gallerySpareM1911 = [
 // รวมชุดภาพทั้งหมด
 const galleryCollections = {
 	galsn: galleryNoImg,
+	
 	galm50: gallerym50,
+	
 	galm27: gallerym27,
 	galscarl: gallerySCARL,
+	galm4lvoa:galleryM4LVOA,
+	
 	galmp9: galleryMP9,
+	galp90: galleryP90,
+	
 	galdel6: galleryDEl6,
 	galde: galleryDE,
 	galm1911: galleryM1911,
+	galg17: galleryG17,
 	galpyton: galleryPyton,
+	
 	galbigrrr: galleryBigrrr,
 	galm67: galleryM67,
 	galc4: galleryC4,
 	galm84: galleryM84,
+	
 	galspare1911: gallerySpareM1911
 };
