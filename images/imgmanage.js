@@ -35,6 +35,9 @@ const gallerym27 = [
     src: "images/weapon/full/m27-1.jpg",
   },
   {
+    src: "images/weapon/full/m27-1-1.jpg",
+  },
+  {
     src: "images/weapon/full/m27-2.jpg",
   },
   {
@@ -51,6 +54,9 @@ const gallerym27 = [
 const gallerySCARL = [
   {
     src: "images/weapon/full/scar-l-1.jpg",
+  },
+  {
+    src: "images/weapon/full/scar-l-1-1.jpg",
   },
   {
     src: "images/weapon/full/scar-l-2.jpg",
@@ -76,6 +82,12 @@ const galleryM4LVOA = [
 const galleryMP9 = [
   {
     src: "images/weapon/full/mp9-1.jpg",
+  },
+  {
+    src: "images/weapon/full/mp9-1-1.jpg",
+  },
+  {
+    src: "images/weapon/full/mp9-1-2.jpg",
   },
   {
     src: "images/weapon/full/mp9-2.jpg",
@@ -268,6 +280,12 @@ const galleryM84 = [
   }
 ];
 
+const galleryM18 = [
+  {
+    src: "images/weapon/full/m18-1.jpg",
+  }
+];
+
 const gallerySpareM1911 = [
   {
     src: "images/weapon/full/spa1911-1.jpg",
@@ -295,6 +313,18 @@ const gallerySpareM1911 = [
   }
 ];
 
+const galleryBinoculars = [
+  {
+    src: "images/weapon/full/binoculars-1.jpg",
+  },
+  {
+    src: "images/weapon/full/binoculars-2.jpg",
+  },
+  {
+    src: "images/weapon/full/binoculars-3.jpg",
+  }
+];
+
 // รวมชุดภาพทั้งหมด
 const galleryCollections = {
 	galsn: galleryNoImg,
@@ -318,6 +348,8 @@ const galleryCollections = {
 	galm67: galleryM67,
 	galc4: galleryC4,
 	galm84: galleryM84,
+	galm18: galleryM18,
 	
-	galspare1911: gallerySpareM1911
+	galspare1911: gallerySpareM1911,
+	galbinoculars: galleryBinoculars
 };
