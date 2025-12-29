@@ -5,7 +5,7 @@ const galleryNoImg = [
   }
 ];
 
-const gallerym50 = [
+const galleryM50 = [
   {
     src: "images/weapon/full/m50-1.jpg",
   },
@@ -30,7 +30,7 @@ const gallerym50 = [
 ];
 
 
-const gallerym27 = [
+const galleryM27 = [
   {
     src: "images/weapon/full/m27-1.jpg",
   },
@@ -75,6 +75,9 @@ const gallerySCARL = [
 const galleryM4LVOA = [
   {
     src: "images/weapon/full/m4lvoa-1.jpg",
+  },
+  {
+    src: "images/weapon/full/m4lvoa-2.jpg",
   }
 ];
 
@@ -325,13 +328,85 @@ const galleryBinoculars = [
   }
 ];
 
+const galleryAmmoBox = [
+  {
+    src: "images/weapon/full/ammocan-1.jpg",
+  },
+  {
+    src: "images/weapon/full/ammocan-2.jpg",
+  },
+  {
+    src: "images/weapon/full/ammocan-3.jpg",
+  }
+];
+
+const galleryAmmo50Cal = [
+  {
+    src: "images/weapon/full/ammo50cal-1.jpg",
+  }
+];
+
+const galleryAmmo762x51 = [
+  {
+    src: "images/weapon/full/ammo762x51-1.jpg",
+  }
+];
+
+const galleryAmmo556x45 = [
+  {
+    src: "images/weapon/full/ammo556x45-1.jpg",
+  }
+];
+
+const galleryAmmo357 = [
+  {
+    src: "images/weapon/full/ammo357-1.jpg",
+  }
+];
+
+const galleryAmmo45auto = [
+  {
+    src: "images/weapon/full/ammo45auto-1.jpg",
+  }
+];
+
+const galleryAmmo9x19 = [
+  {
+    src: "images/weapon/full/ammo9x19-1.jpg",
+  }
+];
+
+const galleryAmmo380auto = [
+  {
+    src: "images/weapon/full/ammo380auto-1.jpg",
+  }
+];
+
+const galleryAmmo7x23 = [
+  {
+    src: "images/weapon/full/ammo7x23-1.jpg",
+  }
+];
+
+const galleryAmmo22lr = [
+  {
+    src: "images/weapon/full/ammo22lr-1.jpg",
+  }
+];
+
+const galleryAmmo12G = [
+  {
+    src: "images/weapon/full/ammo12g-1.jpg",
+  }
+];
+
 // รวมชุดภาพทั้งหมด
 const galleryCollections = {
 	galsn: galleryNoImg,
 	
-	galm50: gallerym50,
+	galm50: galleryM50,
 	
-	galm27: gallerym27,
+	galm27: galleryM27,
 	galscarl: gallerySCARL,
 	galm4lvoa:galleryM4LVOA,
 	
@@ -351,5 +426,18 @@ const galleryCollections = {
 	galm18: galleryM18,
 	
 	galspare1911: gallerySpareM1911,
-	galbinoculars: galleryBinoculars
+	galbinoculars: galleryBinoculars,
+	
+	galammobox: galleryAmmoBox,
+	galammo50cal: galleryAmmo50Cal,
+	galammo762x51: galleryAmmo762x51,
+	galammo556x45: galleryAmmo556x45,
+	galammo357: galleryAmmo357,
+	galammo45auto: galleryAmmo45auto,
+	galammo9x19: galleryAmmo9x19,
+	galammo380auto: galleryAmmo380auto,
+	galammo7x23: galleryAmmo7x23,
+	galammo22lr: galleryAmmo22lr,
+	galammo12g: galleryAmmo12G
+	
 };
