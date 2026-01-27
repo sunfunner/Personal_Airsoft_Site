@@ -445,6 +445,12 @@ ul.dropdown-menu li {
   background: url("../images/bg/WeaponBanner.png") no-repeat;
   background-size: cover;
 }
+
+.bg-gear {
+  background: url("../images/bg/GearBanner.png") no-repeat;
+  background-size: cover;
+}
+
 .bg-team {
   background: url("../images/bg/TeamBanner.png") no-repeat;
   background-size: cover;
@@ -997,3 +1003,10 @@ ul.dropdown-menu li {
     display: none;
     }
   }
+  
+ .eventlogo {
+	width: 250px;
+	border-radius: 50%;
+	border: 0px solid #474a4d;
+	margin: 0 auto;
+ } 
