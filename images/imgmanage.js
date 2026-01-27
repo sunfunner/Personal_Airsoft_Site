@@ -121,6 +121,17 @@ const galleryP90 = [
   }
 ];
 
+const galleryM10 = [
+  {
+    src: "images/weapon/full/mac10s-system-1.jpg",
+  }
+];
+const galleryM10A1 = [
+  {
+    src: "images/weapon/full/m10a1-1.jpg",
+  }
+];
+
 const galleryDEl6 = [
   {
     src: "images/weapon/full/del6-1.jpg",
@@ -316,6 +327,12 @@ const gallerySpareM1911 = [
   }
 ];
 
+const gallerySpareM10A1 = [
+  {
+    src: "images/weapon/full/spam10a1-1.jpg",
+  }
+];
+
 const galleryBinoculars = [
   {
     src: "images/weapon/full/binoculars-1.jpg",
@@ -412,6 +429,8 @@ const galleryCollections = {
 	
 	galmp9: galleryMP9,
 	galp90: galleryP90,
+	galm10: galleryM10,
+	galm10a1: galleryM10A1,
 	
 	galdel6: galleryDEl6,
 	galde: galleryDE,
@@ -426,6 +445,7 @@ const galleryCollections = {
 	galm18: galleryM18,
 	
 	galspare1911: gallerySpareM1911,
+	galsparem10a1: gallerySpareM10A1,
 	galbinoculars: galleryBinoculars,
 	
 	galammobox: galleryAmmoBox,
