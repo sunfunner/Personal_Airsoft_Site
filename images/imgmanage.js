@@ -252,6 +252,18 @@ const galleryPyton = [
   }
 ];
 
+const galleryD22 = [
+  {
+    src: "images/weapon/full/derringer-1.jpg",
+  }
+];
+
+const galleryDE44 = [
+  {
+    src: "images/weapon/full/de44-1.jpg",
+  }
+];
+
 const galleryBigrrr = [
   {
     src: "images/weapon/full/bigrrr-1.jpg",
@@ -345,6 +357,12 @@ const galleryBinoculars = [
   }
 ];
 
+const galleryM203 = [
+  {
+    src: "images/weapon/full/m203-1.jpg",
+  }
+];
+
 const galleryAmmoBox = [
   {
     src: "images/weapon/full/ammocan-1.jpg",
@@ -417,6 +435,12 @@ const galleryAmmo12G = [
   }
 ];
 
+const galleryAmmo40mm = [
+  {
+    src: "images/weapon/full/ammo40mm-1.jpg",
+  }
+];
+
 // รวมชุดภาพทั้งหมด
 const galleryCollections = {
 	galsn: galleryNoImg,
@@ -437,6 +461,8 @@ const galleryCollections = {
 	galm1911: galleryM1911,
 	galg17: galleryG17,
 	galpyton: galleryPyton,
+	gald22: galleryD22,
+	galde44: galleryDE44,
 	
 	galbigrrr: galleryBigrrr,
 	galm67: galleryM67,
@@ -447,6 +473,7 @@ const galleryCollections = {
 	galspare1911: gallerySpareM1911,
 	galsparem10a1: gallerySpareM10A1,
 	galbinoculars: galleryBinoculars,
+	galm203: galleryM203,
 	
 	galammobox: galleryAmmoBox,
 	galammo50cal: galleryAmmo50Cal,
@@ -458,6 +485,6 @@ const galleryCollections = {
 	galammo380auto: galleryAmmo380auto,
 	galammo7x23: galleryAmmo7x23,
 	galammo22lr: galleryAmmo22lr,
-	galammo12g: galleryAmmo12G
-	
+	galammo12g: galleryAmmo12G,
+	galammo40mm: galleryAmmo40mm
 };
