@@ -81,6 +81,21 @@ const galleryM4LVOA = [
   }
 ];
 
+const galleryP90 = [
+  {
+    src: "images/weapon/full/p90-1.jpg",
+  }
+];
+
+const galleryPDW = [
+  {
+    src: "images/weapon/full/pdw-1.jpg",
+  },
+  {
+    src: "images/weapon/full/pdw-2.jpg",
+  }
+];
+
 
 const galleryMP9 = [
   {
@@ -112,12 +127,6 @@ const galleryMP9 = [
   },
   {
     src: "images/weapon/full/mp9-8.jpg",
-  }
-];
-
-const galleryP90 = [
-  {
-    src: "images/weapon/full/p90-1.jpg",
   }
 ];
 
@@ -363,6 +372,11 @@ const gallerySpareM10A1 = [
   }
 ];
 
+const galleryMP5A3= [
+  {
+    src: "images/weapon/full/mp5-1.jpg",
+  }
+];
 const galleryBinoculars = [
   {
     src: "images/weapon/full/binoculars-1.jpg",
@@ -468,10 +482,13 @@ const galleryCollections = {
 	galscarl: gallerySCARL,
 	galm4lvoa:galleryM4LVOA,
 	
-	galmp9: galleryMP9,
 	galp90: galleryP90,
+	galpdw: galleryPDW,
+	
+	galmp9: galleryMP9,
 	galm10: galleryM10,
 	galm10a1: galleryM10A1,
+	galmp5a3: galleryMP5A3,
 	
 	galdel6: galleryDEl6,
 	galde: galleryDE,
