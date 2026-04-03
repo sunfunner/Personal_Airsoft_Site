@@ -157,6 +157,9 @@ const galleryMP5A3= [
 const galleryM10 = [
   {
     src: "images/weapon/full/mac10s-system-1.jpg",
+  },
+  {
+    src: "images/weapon/full/mac10s-system-2.jpg",
   }
 ];
 
