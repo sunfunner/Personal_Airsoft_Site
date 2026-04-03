@@ -59,6 +59,9 @@ const gallerySCARL = [
     src: "images/weapon/full/scar-l-1-1.jpg",
   },
   {
+    src: "images/weapon/full/scar-l-1-2.jpg",
+  },
+  {
     src: "images/weapon/full/scar-l-2.jpg",
   },
   {
@@ -78,12 +81,24 @@ const galleryM4LVOA = [
   },
   {
     src: "images/weapon/full/m4lvoa-2.jpg",
+  },
+  {
+    src: "images/weapon/full/m4lvoa-3.jpg",
+  }
+];
+
+const galleryAKS74U = [
+  {
+    src: "images/weapon/full/aks-74u-1.jpg",
   }
 ];
 
 const galleryP90 = [
   {
     src: "images/weapon/full/p90-1.jpg",
+  },
+  {
+    src: "images/weapon/full/p90-2.jpg",
   }
 ];
 
@@ -93,6 +108,9 @@ const galleryPDW = [
   },
   {
     src: "images/weapon/full/pdw-2.jpg",
+  },
+  {
+    src: "images/weapon/full/pdw-3.jpg",
   }
 ];
 
@@ -130,14 +148,27 @@ const galleryMP9 = [
   }
 ];
 
+const galleryMP5A3= [
+  {
+    src: "images/weapon/full/mp5-1.jpg",
+  }
+];
+
 const galleryM10 = [
   {
     src: "images/weapon/full/mac10s-system-1.jpg",
   }
 ];
+
 const galleryM10A1 = [
   {
     src: "images/weapon/full/m10a1-1.jpg",
+  }
+];
+
+const galleryMIUZI = [
+  {
+    src: "images/weapon/full/typeu-1.jpg",
   }
 ];
 
@@ -372,11 +403,6 @@ const gallerySpareM10A1 = [
   }
 ];
 
-const galleryMP5A3= [
-  {
-    src: "images/weapon/full/mp5-1.jpg",
-  }
-];
 const galleryBinoculars = [
   {
     src: "images/weapon/full/binoculars-1.jpg",
@@ -481,14 +507,16 @@ const galleryCollections = {
 	galm27: galleryM27,
 	galscarl: gallerySCARL,
 	galm4lvoa:galleryM4LVOA,
+	galaks74u:galleryAKS74U,
 	
 	galp90: galleryP90,
 	galpdw: galleryPDW,
 	
 	galmp9: galleryMP9,
+	galmp5a3: galleryMP5A3,
 	galm10: galleryM10,
 	galm10a1: galleryM10A1,
-	galmp5a3: galleryMP5A3,
+	galmiuzi: galleryMIUZI,
 	
 	galdel6: galleryDEl6,
 	galde: galleryDE,
