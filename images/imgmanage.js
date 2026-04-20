@@ -151,6 +151,9 @@ const galleryMP9 = [
 const galleryMP5A3= [
   {
     src: "images/weapon/full/mp5-1.jpg",
+  },
+  {
+    src: "images/weapon/full/mp5-2.jpg",
   }
 ];
 
@@ -418,6 +421,12 @@ const galleryBinoculars = [
   }
 ];
 
+const galleryBinoc750 = [
+  {
+    src: "images/weapon/full/binoc750-1.jpg",
+  }
+];
+
 const galleryM203 = [
   {
     src: "images/weapon/full/m203-1.jpg",
@@ -542,6 +551,7 @@ const galleryCollections = {
 	galspare1911: gallerySpareM1911,
 	galsparem10a1: gallerySpareM10A1,
 	galbinoculars: galleryBinoculars,
+	galbinoc750: galleryBinoc750,
 	galm203: galleryM203,
 	
 	galammobox: galleryAmmoBox,
