@@ -1010,3 +1010,57 @@ ul.dropdown-menu li {
 	border: 0px solid #474a4d;
 	margin: 0 auto;
  } 
+
+</*--------------------accordion-------------------*/>
+.accordion {
+  max-width: 800px;
+  margin: auto;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #444;
+}
+
+.accordion-header {
+  cursor: pointer;
+  padding: 15px;
+  background: #22222200;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s;
+}
+
+.accordion-header:hover {
+  background: #22222233;
+}
+
+.accordion-header span {
+  transition: transform 0.3s;
+}
+
+.accordion-header.active span {
+  transform: rotate(90deg);
+}
+
+.accordion-content {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
+  background: #fff;
+  padding: 0 15px;
+}
+
+.accordion-content p {
+  margin: 10px 0;
+}
+
+/* nested accordion */
+.nested {
+  margin-left: 15px;
+  /*border-left: 2px solid #444;*/
+}
+
+.accordion-content.open {
+  /* ไม่ต้องใส่อะไร แต่ใช้เป็น state */
+}
