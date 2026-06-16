@@ -51,6 +51,18 @@ const galleryM27 = [
   }
 ];
 
+const galleryM4LVOA = [
+  {
+    src: "images/weapon/full/m4lvoa-1.jpg",
+  },
+  {
+    src: "images/weapon/full/m4lvoa-2.jpg",
+  },
+  {
+    src: "images/weapon/full/m4lvoa-3.jpg",
+  }
+];
+
 const gallerySCARL = [
   {
     src: "images/weapon/full/scar-l-1.jpg",
@@ -60,6 +72,9 @@ const gallerySCARL = [
   },
   {
     src: "images/weapon/full/scar-l-1-2.jpg",
+  },
+   {
+    src: "images/weapon/full/scar-l-1-3.jpg",
   },
   {
     src: "images/weapon/full/scar-l-2.jpg",
@@ -75,32 +90,39 @@ const gallerySCARL = [
   }
 ];
 
-const galleryM4LVOA = [
-  {
-    src: "images/weapon/full/m4lvoa-1.jpg",
-  },
-  {
-    src: "images/weapon/full/m4lvoa-2.jpg",
-  },
-  {
-    src: "images/weapon/full/m4lvoa-3.jpg",
-  }
-];
-
 const galleryAKS74U = [
-  {
+ {
     src: "images/weapon/full/aks-74u-1.jpg",
+  },
+  {
+    src: "images/weapon/full/aks-74u-2.jpg",
   }
 ];
 
-const galleryP90 = [
+const galleryACR = [
   {
-    src: "images/weapon/full/p90-1.jpg",
-  },
-  {
-    src: "images/weapon/full/p90-2.jpg",
+    src: "images/weapon/full/acr-1.jpg",
   }
 ];
+
+const galleryG36K = [
+{
+    src: "images/weapon/full/g36k-1.jpg",
+  },
+  {
+    src: "images/weapon/full/g36k-2.jpg",
+  }
+];
+
+const galleryG36C = [
+{
+    src: "images/weapon/full/g36c-1.jpg",
+  },
+  {
+    src: "images/weapon/full/g36c-2.jpg",
+  }
+];
+
 
 const galleryPDW = [
   {
@@ -111,6 +133,21 @@ const galleryPDW = [
   },
   {
     src: "images/weapon/full/pdw-3.jpg",
+  },
+  {
+    src: "images/weapon/full/pdw-4.jpg",
+  }
+];
+
+const galleryP90 = [
+{
+    src: "images/weapon/full/p90-1.jpg",
+  },
+  {
+    src: "images/weapon/full/p90-2.jpg",
+  },
+  {
+    src: "images/weapon/full/p90-3.jpg",
   }
 ];
 
@@ -154,6 +191,9 @@ const galleryMP5A3= [
   },
   {
     src: "images/weapon/full/mp5-2.jpg",
+  },
+  {
+    src: "images/weapon/full/mp5-3.jpg",
   }
 ];
 
@@ -520,6 +560,9 @@ const galleryCollections = {
 	galscarl: gallerySCARL,
 	galm4lvoa:galleryM4LVOA,
 	galaks74u:galleryAKS74U,
+	galacr:galleryACR,
+	galg36k:galleryG36K,
+	galg36c:galleryG36C,
 	
 	galp90: galleryP90,
 	galpdw: galleryPDW,
