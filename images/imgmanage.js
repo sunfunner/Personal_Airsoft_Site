@@ -123,6 +123,12 @@ const galleryG36C = [
   }
 ];
 
+const gallerySR47 = [
+  {
+    src: "images/weapon/full/sr47-1.jpg",
+  }
+];
+
 
 const galleryPDW = [
   {
@@ -563,6 +569,7 @@ const galleryCollections = {
 	galacr:galleryACR,
 	galg36k:galleryG36K,
 	galg36c:galleryG36C,
+	galsr47:gallerySR47,
 	
 	galp90: galleryP90,
 	galpdw: galleryPDW,
