@@ -53,20 +53,22 @@
 					<ul class="tabs">
 						<li class="tab-link" data-tab="tip">Tip</li>
 						<li class="tab-link current" data-tab="sniper">Sniper</li>
-						<li class="tab-link" data-tab="ar">ASR</li>
+						<li class="tab-link" data-tab="asr">ASR</li>
+						<li class="tab-link" data-tab="carbine">Carbine</li>
 						<li class="tab-link" data-tab="pdw">PDW</li>
 						<li class="tab-link" data-tab="smg">SMG</li>
 						<li class="tab-link" data-tab="pistol">Pistol</li>
 						<li class="tab-link" data-tab="knife">Knife</li>
 						<li class="tab-link" data-tab="gadget">Gadget</li>
 						<li class="tab-link" data-tab="other">Other</li>
-						<li class="tab-link" data-tab="Bullet_Prob">Bullet Prob</li>
+						<li class="tab-link" data-tab="Bullet_Prob">Bullet</li>
 						
 					</ul>
 					<div class="tab-contents">
-						<section class="section about">
+						<!--<section class="section about">-->
 							<div class="container">
 								<div class="tab-pane" id="tip">
+									<section class="section about">
 									<span class="h5 text-lg text-muted">Weapon Type</span>
 									<br><br>
 
@@ -163,7 +165,7 @@
 												<div class="accordion-item"><div class="accordion-header"><h4>DMR (Designated Marksman Rifle)</h4></div><div class="accordion-content"><p>ไรเฟิลกึ่งอัตโนมัติ ที่ติดกล้องช่วยเล็ง</p></div></div>
 												<div class="accordion-item"><div class="accordion-header"><h4>Sniper Rifle</h4></div><div class="accordion-content"><p>เน้นความแม่นยำสูงสุดในระยะไกลมาก มักเป็นระบบ Bolt-action (ดึงคันรั้งยิงทีละนัด) และติดกล้องช่วยเล็ง</p></div></div>
 												<div class="accordion-item"><div class="accordion-header"><h4>Scout Rifle</h4></div><div class="accordion-content"><p>ปืนไรเฟิลเอนกประสงค์ น้ำหนักเบา ลำกล้องสั้น ติดกล้องเล็งเยื้องไปข้างหน้า</p></div></div>
-												<div class="accordion-item"><div class="accordion-header"><h4>LRS(Long Range Sniper Rifle)</h4></div><div class="accordion-content"><p> ปืนซุ่มยิงระยะไกลพิเศษ เน้นความแม่นยำสูงสุดในนัดเดียว</p></div></div>
+												<div class="accordion-item"><div class="accordion-header"><h4>LRS (Long Range Sniper Rifle)</h4></div><div class="accordion-content"><p> ปืนซุ่มยิงระยะไกลพิเศษ เน้นความแม่นยำสูงสุดในนัดเดียว</p></div></div>
 												<div class="accordion-item"><div class="accordion-header"><h4>ELR (Extreme Long Range)</h4></div><div class="accordion-content"><p>ปืนที่ออกแบบมาเพื่อยิงเป้าหมายที่ระยะเกิน 2 กิโลเมตร</p></div></div>
 												<div class="accordion-item"><div class="accordion-header"><h4>AMR (Anti-Materiel Rifle)</h4></div><div class="accordion-content"><p>ปืนไรเฟิลต่อต้านวัสดุ/ยานเกราะ ใช้กระสุนขนาดใหญ่มาก</p></div></div>
 											</div>
@@ -185,11 +187,11 @@
 												
 											</div>
 										</div>
-										
+										</section>
 									</div>
 								</div>
 							</div>
-						</section>
+						<!--</section>-->
 					<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 						<div class="tab-pane current" id="sniper">
 							<!-- Section About start -->
@@ -220,7 +222,7 @@
 							<!-- Section About End -->
 						</div>
 						<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-						<div class="tab-pane" id="ar">
+						<div class="tab-pane" id="asr">
 							<!-- Section About start -->
 								<section class="section about">
 									<div class="container">
@@ -234,7 +236,7 @@
 											<div class="col-lg-6 col-md-12">
 												<div class="about-item position-relative mt-5 mt-lg-0">
 													<span class="h5 text-lg text-muted">M27 IAR</span>
-													<h2 class="mt-1 mb-3">E&C <span class="text-color">103</span> S2</h2>
+													<h2 class="mt-1 mb-3">E&C <span class="text-color">103</span> S2 - DMR Bulid</h2>
 								
 													<p class="mb-4">Optic : Bushnell 3-9x40 AE
 													<BR>Side Rail : Rail Cover
@@ -259,15 +261,55 @@
 										<div class="row align-items-center">
 											<div class="col-lg-6 col-md-12">
 												<div class="about-item position-relative mt-5 mt-lg-0">
-													<span class="h5 text-lg text-muted">M4 LVOA</span>
-													<h2 class="mt-1 mb-3">Brand <span class="text-color">Unknow</span></h2>
+													<span class="h5 text-lg text-muted">KAC SR47</span>
+													<h2 class="mt-1 mb-3">SR-47 <span class="text-color">Cyma</span></h2>
 								
 													<p class="mb-4">Optic : ACOG Red dot
-													<BR>Side Rail : AN/PEQ-16 (Battery Case)
-													<BR>Side Rail : QD Sling Holder
+													<BR>Handguard : LVOA
 													<BR>Forward Grip : Trirock Angled Hand Stop
-													<BR>Upper Rail : 45 degree Rail
 													<BR>Spacial : Raid Tape on handguard
+													<BR>Upper Rail : 45 degree Rail
+													<BR>Side Rail : QD Sling Holder
+													<BR>Pistol Grip : HK Grip</p>
+													
+													<!--a href="service.html" class="btn btn-main">Full Picture<i class="ti-angle-right ml-2"></i></a-->
+												<button class="btn btn-main" onclick="openLightbox('galsr47')" >Full Picture<i class="ti-angle-right ml-2"></i></button>
+												</div>
+											</div>
+											
+											<div class="col-lg-3 col-md-6 hide-on-mobile">
+												<img src="images/weapon/SR47-1.png" alt="" class="img-fluid">
+											</div>
+											
+											<div class="col-lg-3 mt-lg-4 col-md-6 hide-on-mobile">
+												<img src="images/weapon/SR47-2.png" alt="" class="img-fluid">
+											</div>
+										</div>
+									</div>
+								</section>
+								
+								
+								<section class="section about">
+									<div class="container">
+										<div class="row align-items-center">
+											<div class="col-lg-3 col-md-6 hide-on-mobile">
+												<img src="images/weapon/M4LVOA-1.png" alt="" class="img-fluid">
+											</div>
+											
+											<div class="col-lg-3 mt-lg-4 col-md-6 hide-on-mobile">
+												<img src="images/weapon/M4LVOA-2.png" alt="" class="img-fluid">
+											</div>
+											<div class="col-lg-6 col-md-12">
+												<div class="about-item position-relative mt-5 mt-lg-0">
+													<span class="h5 text-lg text-muted">M4 LVOA</span>
+													<h2 class="mt-1 mb-3">Brand <span class="text-color">Unknow - M203 Bulid</span></h2>
+								
+													<p class="mb-4">Optic : EOTech XPS3-0
+													<BR>Gas block : M4S-System Gas block
+													<BR>Handguard : SR25 Quad Rail
+													<BR>Side Rail : AN/PEQ-16 (Battery Case)
+													<BR>Under Rail : M203
+													<BR>M203 Accessories : Extra Rail forM 203
 													<BR>Buttstock : G&G CTR
 													<BR>Buttstock Accessory : CTR Cheek Riser</p>
 													
@@ -276,17 +318,45 @@
 												</div>
 											</div>
 											
+											
+										</div>
+									</div>
+								</section>
+								
+								<section class="section about">
+									<div class="container">
+										<div class="row align-items-center">
+											<div class="col-lg-6 col-md-12">
+												<div class="about-item position-relative mt-5 mt-lg-0">
+													<span class="h5 text-lg text-muted">G36K</span>
+													<h2 class="mt-1 mb-3">608-2 <span class="text-color">JG Works</span></h2>
+								
+													<p class="mb-4">Optic : Eotech 552
+													<BR>Optic : Magnifier 3X
+													<BR>Side Rail : EOTECH OGL
+													<BR>Under Barrel Rail : Rail Vertical Grip Model MAG412</p>
+													
+													<!--a href="service.html" class="btn btn-main">Full Picture<i class="ti-angle-right ml-2"></i></a-->
+												<button class="btn btn-main" onclick="openLightbox('galg36k')" >Full Picture<i class="ti-angle-right ml-2"></i></button>
+												</div>
+											</div>
+											
 											<div class="col-lg-3 col-md-6 hide-on-mobile">
-												<img src="images/weapon/M4LVOA-1.png" alt="" class="img-fluid">
+												<img src="images/weapon/G36K-1.png" alt="" class="img-fluid">
 											</div>
 											
 											<div class="col-lg-3 mt-lg-4 col-md-6 hide-on-mobile">
-												<img src="images/weapon/M4LVOA-2.png" alt="" class="img-fluid">
+												<img src="images/weapon/G36K-2.png" alt="" class="img-fluid">
 											</div>
 										</div>
 									</div>
 								</section>
 								
+							<!-- Section About End -->
+						</div>
+						<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+						<div class="tab-pane" id="carbine">
+							<!-- Section About start -->
 								<section class="section about">
 									<div class="container">
 										<div class="row align-items-center">
@@ -388,45 +458,11 @@
 										</div>
 									</div>
 								</section>
-								
+
 								<section class="section about">
 									<div class="container">
 										<div class="row align-items-center">
-											<div class="col-lg-6 col-md-12">
-												<div class="about-item position-relative mt-5 mt-lg-0">
-													<span class="h5 text-lg text-muted">G36K</span>
-													<h2 class="mt-1 mb-3">608-2 <span class="text-color">JG Works</span></h2>
-								
-													<p class="mb-4">Optic : Eotech 552
-													<BR>Optic : Magnifier 3X
-													<BR>Side Rail : EOTECH OGL
-													<BR>Under Barrel Rail : Rail Vertical Grip Model MAG412</p>
-													
-													<!--a href="service.html" class="btn btn-main">Full Picture<i class="ti-angle-right ml-2"></i></a-->
-												<button class="btn btn-main" onclick="openLightbox('galg36k')" >Full Picture<i class="ti-angle-right ml-2"></i></button>
-												</div>
-											</div>
 											
-											<div class="col-lg-3 col-md-6 hide-on-mobile">
-												<img src="images/weapon/G36K-1.png" alt="" class="img-fluid">
-											</div>
-											
-											<div class="col-lg-3 mt-lg-4 col-md-6 hide-on-mobile">
-												<img src="images/weapon/G36K-2.png" alt="" class="img-fluid">
-											</div>
-										</div>
-									</div>
-								</section>
-								
-								<section class="section about">
-									<div class="container">
-										<div class="row align-items-center">
-											<div class="col-lg-3 col-md-6 hide-on-mobile">
-												<img src="images/weapon/G36C-1.png" alt="" class="img-fluid">
-											</div>
-											<div class="col-lg-3 mt-lg-4 col-md-6 hide-on-mobile">
-												<img src="images/weapon/G36C-2.png" alt="" class="img-fluid">
-											</div>
 											<div class="col-lg-6 col-md-12">
 												<div class="about-item position-relative mt-5 mt-lg-0">
 													<span class="h5 text-lg text-muted">G36C</span>
@@ -440,40 +476,18 @@
 													
 													<!--a href="service.html" class="btn btn-main">Full Picture<i class="ti-angle-right ml-2"></i></a-->
 													<button class="btn btn-main" onclick="openLightbox('galg36c')" >Full Picture<i class="ti-angle-right ml-2"></i></button>
-													
-												</div>
+												</div>	
 											</div>
-										</div>
-									</div>
-								</section>
-								
-								<section class="section about">
-									<div class="container">
-										<div class="row align-items-center">
-											<div class="col-lg-6 col-md-12">
-												<div class="about-item position-relative mt-5 mt-lg-0">
-													<span class="h5 text-lg text-muted">KAC SR47</span>
-													<h2 class="mt-1 mb-3">SR-47 <span class="text-color">Cyma</span></h2>
-								
-													<p class="mb-4">Optic : EOTech XPS3-0
-													<BR>Handguard : SR25 Quad Rail
-													<BR>Pistol Grip : HK Grip</p>
-													
-													<!--a href="service.html" class="btn btn-main">Full Picture<i class="ti-angle-right ml-2"></i></a-->
-												<button class="btn btn-main" onclick="openLightbox('galsr47')" >Full Picture<i class="ti-angle-right ml-2"></i></button>
-												</div>
-											</div>
-											
 											<div class="col-lg-3 col-md-6 hide-on-mobile">
-												<img src="images/weapon/SR47-1.png" alt="" class="img-fluid">
+												<img src="images/weapon/G36C-1.png" alt="" class="img-fluid">
 											</div>
-											
 											<div class="col-lg-3 mt-lg-4 col-md-6 hide-on-mobile">
-												<img src="images/weapon/SR47-2.png" alt="" class="img-fluid">
+												<img src="images/weapon/G36C-2.png" alt="" class="img-fluid">
 											</div>
 										</div>
 									</div>
 								</section>
+								
 								
 							<!-- Section About End -->
 						</div>
@@ -1076,15 +1090,15 @@
 												<p class="mb-4"></p>
 												
 												<!--a href="service.html" class="btn btn-main">Full Picture<i class="ti-angle-right ml-2"></i></a-->
-												<button class="btn btn-main" onclick="openLightbox('galm84')" >Full Picture<i class="ti-angle-right ml-2"></i></button>
+												<button class="btn btn-main" onclick="openLightbox('galm26')" >Full Picture<i class="ti-angle-right ml-2"></i></button>
 											</div>
 										</div>
 							
 										<div class="col-lg-3 col-md-6 hide-on-mobile">
-											<img src="images/weapon/M84-1.png" alt="" class="img-fluid">
+											<img src="images/weapon/M26-1.png" alt="" class="img-fluid">
 										</div>
 										<div class="col-lg-3 mt-lg-4 col-md-6 hide-on-mobile">
-											<img src="images/weapon/M84-2.png" alt="" class="img-fluid">
+											<img src="images/weapon/M26-2.png" alt="" class="img-fluid">
 										</div>
 									</div>
 								</div>
@@ -1094,10 +1108,10 @@
 								<div class="container">
 									<div class="row align-items-center">
 										<div class="col-lg-3 col-md-6 hide-on-mobile">
-											<img src="images/weapon/M18-1.png" alt="" class="img-fluid">
+											<img src="images/weapon/MK2-1.png" alt="" class="img-fluid">
 										</div>
 										<div class="col-lg-3 mt-lg-4 col-md-6 hide-on-mobile">
-											<img src="images/weapon/M18-2.png" alt="" class="img-fluid">
+											<img src="images/weapon/MK2-2.png" alt="" class="img-fluid">
 										</div>
 										<div class="col-lg-6 col-md-12">
 											<div class="about-item position-relative mt-5 mt-lg-0">
@@ -1107,7 +1121,7 @@
 												<p class="mb-4"></p>
 								
 												<!--a href="service.html" class="btn btn-main">Full Picture<i class="ti-angle-right ml-2"></i></a-->
-												<button class="btn btn-main" onclick="openLightbox('galm18')" >Full Picture<i class="ti-angle-right ml-2"></i></button>
+												<button class="btn btn-main" onclick="openLightbox('galmk2')" >Full Picture<i class="ti-angle-right ml-2"></i></button>
 											</div>
 										</div>
 									</div>
@@ -1325,15 +1339,15 @@
 												<p class="mb-4">Bullet Count : 50</p>
 												
 												<!--a href="service.html" class="btn btn-main">Full Picture<i class="ti-angle-right ml-2"></i></a-->
-												<button class="btn btn-main" onclick="openLightbox('galammo556x45')" >Full Picture<i class="ti-angle-right ml-2"></i></button>
+												<button class="btn btn-main" onclick="openLightbox('galammo58x42')" >Full Picture<i class="ti-angle-right ml-2"></i></button>
 											</div>
 										</div>
 							
 										<div class="col-lg-3 col-md-6 hide-on-mobile">
-											<img src="images/weapon/Ammo556x45-1.png" alt="" class="img-fluid">
+											<img src="images/weapon/Ammo58x42-1.png" alt="" class="img-fluid">
 										</div>
 										<div class="col-lg-3 mt-lg-4 col-md-6 hide-on-mobile">
-											<img src="images/weapon/Ammo556x45-2.png" alt="" class="img-fluid">
+											<img src="images/weapon/Ammo58x42-2.png" alt="" class="img-fluid">
 										</div>
 									</div>
 								</div>
@@ -1379,10 +1393,10 @@
 										</div>
 							
 										<div class="col-lg-3 col-md-6 hide-on-mobile">
-											<img src="images/weapon/N-3.png" alt="" class="img-fluid">
+											<img src="images/weapon/Ammo45Auto-1.png" alt="" class="img-fluid">
 										</div>
 										<div class="col-lg-3 mt-lg-4 col-md-6 hide-on-mobile">
-											<img src="images/weapon/N-4.png" alt="" class="img-fluid">
+											<img src="images/weapon/Ammo45Auto-2.png" alt="" class="img-fluid">
 										</div>
 									</div>
 								</div>
@@ -1429,10 +1443,10 @@
 										</div>
 							
 										<div class="col-lg-3 col-md-6 hide-on-mobile">
-											<img src="images/weapon/N-3.png" alt="" class="img-fluid">
+											<img src="images/weapon/Ammo380Auto-1.png" alt="" class="img-fluid">
 										</div>
 										<div class="col-lg-3 mt-lg-4 col-md-6 hide-on-mobile">
-											<img src="images/weapon/N-4.png" alt="" class="img-fluid">
+											<img src="images/weapon/Ammo380Auto-2.png" alt="" class="img-fluid">
 										</div>
 									</div>
 								</div>
@@ -1541,20 +1555,20 @@
 								<div class="container">
 									<div class="row align-items-center">
 										<div class="col-lg-3 col-md-6 hide-on-mobile">
-											<img src="images/weapon/Ammo12G-1.png" alt="" class="img-fluid">
+											<img src="images/weapon/Ammo556x45-1.png" alt="" class="img-fluid">
 										</div>
 										<div class="col-lg-3 mt-lg-4 col-md-6 hide-on-mobile">
-											<img src="images/weapon/Ammo12G-2.png" alt="" class="img-fluid">
+											<img src="images/weapon/Ammo556x45-2.png" alt="" class="img-fluid">
 										</div>
 										<div class="col-lg-6 col-md-12">
 											<div class="about-item position-relative mt-5 mt-lg-0">
 												<span class="h5 text-lg text-muted">5.56x45</span>
 												<h2 class="mt-1 mb-3"><span class="text-color">Dummy Bullet</span></h2>
 								
-												<p class="mb-4">Bullet Count Red : 30</p>
+												<p class="mb-4">Bullet Count : 30</p>
 								
 												<!--a href="service.html" class="btn btn-main">Full P icture<i class="ti-angle-right ml-2"></i></a-->
-												<button class="btn btn-main" onclick="openLightbox('galammo12g')" >Full Picture<i class="ti-angle-right ml-2"></i></button>
+												<button class="btn btn-main" onclick="openLightbox('galammo556x45')" >Full Picture<i class="ti-angle-right ml-2"></i></button>
 											</div>
 										</div>
 									</div>
