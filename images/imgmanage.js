@@ -130,6 +130,11 @@ const galleryACR = [
     src: "images/weapon/full/acr-1.jpg",
   }
 ];
+const galleryM4C = [
+  {
+    src: "images/weapon/full/m4c-1.jpg",
+  }
+];
 
 // PDW
 const galleryPDW = [
@@ -571,8 +576,9 @@ const galleryCollections = {
 // Carbine	
 	galscarl: gallerySCARL,
 	galaks74u:galleryAKS74U,
-	galacr:galleryACR,
-	galg36c:galleryG36C,
+	galacr: galleryACR,
+	galg36c: galleryG36C,
+	galm4c:galleryM4C,
 // PDW
 	galp90: galleryP90,
 	galpdw: galleryPDW,
