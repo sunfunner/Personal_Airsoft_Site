@@ -1064,3 +1064,43 @@ ul.dropdown-menu li {
 .accordion-content.open {
   /* ไม่ต้องใส่อะไร แต่ใช้เป็น state */
 }
+
+#backToTopBtn {
+  display: none; /* ซ่อนเริ่มต้น */
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  
+  /* ปรับให้เป็นวงกลมสมบูรณ์ */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+  padding: 0; /* เคลียร์ padding เดิม */
+  font-size: 18px;
+  
+  /* กำหนดให้ไอคอนลูกศรอยู่ตรงกลางวงกลมพอดี */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* ตัวควบคุมการค่อยๆ จาง (Fade In / Fade Out) */
+  opacity: 0;
+  transition: opacity 0.5s ease, background-color 0.3s ease;
+}
+
+/* คลาสที่จะใช้ JavaScript สั่งให้แสดงและจางหาย */
+#backToTopBtn.show {
+  display: flex; /* เปลี่ยนจาก block เป็น flex เพื่อให้ลูกศรอยู่ตรงกลาง */
+  opacity: 1;
+}
+
+#backToTopBtn:hover {
+  background-color: #333;
+}
