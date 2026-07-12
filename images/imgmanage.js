@@ -81,6 +81,11 @@ const gallerySR47 = [
     src: "images/weapon/full/sr47-2.jpg",
   }
 ];
+const galleryAR15 = [
+  {
+    src: "images/weapon/full/ar15-1.jpg",
+  }
+];
 
 // Carbine
 const galleryG36C = [
@@ -133,6 +138,9 @@ const galleryACR = [
 const galleryM4C = [
   {
     src: "images/weapon/full/m4c-1.jpg",
+  },
+  {
+    src: "images/weapon/full/m4c-2.jpg",
   }
 ];
 
@@ -573,12 +581,15 @@ const galleryCollections = {
 	galm4lvoa:galleryM4LVOA,
 	galg36k:galleryG36K,
 	galsr47:gallerySR47,
+	galar15: galleryAR15,
+	
 // Carbine	
 	galscarl: gallerySCARL,
 	galaks74u:galleryAKS74U,
 	galacr: galleryACR,
 	galg36c: galleryG36C,
-	galm4c:galleryM4C,
+	galm4c: galleryM4C,
+	
 // PDW
 	galp90: galleryP90,
 	galpdw: galleryPDW,
